@@ -1,0 +1,20 @@
+.editBox {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 6px;
+    display: none;
+
+}
+.editBox input{
+    width: 100px;
+}
+.editBox button {
+    height: 50px;
+    border-radius: 6px;
+}

@@ -1,0 +1,34 @@
+.inner-content2 {
+    color: white;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+.buttDiv2 {
+    padding: 40px;
+}
+.button2 {
+    width: 35vw;
+    height: 45vh;
+    border-radius: 6px;
+    background-image: url("../../img/Herbivore.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    box-shadow: 0 38px 24px 0 rgba(0,0,0,0.15);
+    border: none;
+    
+}
+.herbInfo {
+    display: flex;
+    flex-direction: column;
+
+}

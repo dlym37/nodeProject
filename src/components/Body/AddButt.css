@@ -1,0 +1,24 @@
+.addSpace {
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 6px;
+    }
+input {
+    width: 110px;
+    height: 15px;
+    border-radius: 6px;
+    padding: 2px;
+    text-align: center;
+}
+.addButton {
+    border-radius: 6px;
+    background-color: rgb(39, 107, 65);
+    color: white;
+}
+
