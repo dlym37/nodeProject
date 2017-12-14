@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Add from './Add';
+import {Link} from 'react-router-dom';
 
 class Herbivore extends Component {
     constructor(props) {
@@ -30,11 +31,12 @@ class Herbivore extends Component {
         return (
             <div className="inner-content2">
                 <div className="buttDiv2">
-                    <button
+                    <Link to='/herbivore'><button
                         className="button2"
                         onClick={() => this.props.listHerbs()}
                     >Herbivorous Dinosaurus
                     </button>
+                    </Link>
                     <Add className="editDel" addDino={this.props.addDino} saveName={this.props.handleName}/>
                 </div>
                 <div className="herbInfo">
